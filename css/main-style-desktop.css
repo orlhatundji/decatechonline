@@ -1,0 +1,93 @@
+@media(min-width:1024px) {
+    nav{
+        display: flex;
+    }
+
+    .brandlogo{
+        width: 120px;
+        height: 40px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #navToggler{
+        display: none;
+    }
+    
+
+
+    .navigation-group{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navigation-item{
+        margin-left: 20px;
+    }
+
+    #landing{
+        display: flex;
+        padding: 20px;
+    }
+
+    #decatech{
+        margin-top: 40%;
+        margin-right: auto;
+    }
+
+    #programmer-art{
+        margin-left: auto;
+        opacity: 0.1;
+        border-top-left-radius: 700px 500px;
+    }
+
+    .landing-text{
+        position: absolute;
+        font-size: 300%;
+        width: 30%;
+        text-align: center;
+        background-color: transparent;
+        right: 20%;
+        color: white;
+        margin-top: 60px;
+        z-index: 11;
+    }
+    
+    .dev-env p{
+        color: blue;
+        font-style: normal;
+        text-align: center;
+        width: 40%;
+        font-size: 300%;
+        margin-top: auto;
+        font-family:initial;
+        z-index: 1;
+    }
+
+    .art-overlay{
+        display: none;
+        height: 300px;
+        width: 100%;
+        /* margin-top: -310px; */
+        position: absolute;
+        background-color: black;
+        opacity: 1;
+        z-index: 0;
+    }
+
+    .profile-details{
+        display: flex;
+        padding: 10px;
+    }
+    .profile-details p{
+        width: 50%;
+        margin-right: auto;
+        font-size: large;
+    }
+    .profile-pic{
+        margin-left: auto;
+
+    }
+
+}
